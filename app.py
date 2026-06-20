@@ -3,7 +3,7 @@
 #Test
 from flask import Flask, render_template
 app = Flask(__name__)
-go
+
 
 @app.route('/')
 def hello_world():
