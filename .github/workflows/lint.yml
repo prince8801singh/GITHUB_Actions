@@ -1,6 +1,3 @@
-# What is the goal of your workflow
-# Goal: Whenever someone changes the python code
-#  The Linter will check if the syntax, indentation, formal (Linting) is correct or not
 name: Auto Linter
 
 on:
@@ -19,3 +16,6 @@ on:
          run: pip install ruff
         
       
+# What is the goal of your workflow
+# Goal: Whenever someone changes the python code
+#  The Linter will check if the syntax, indentation, formal (Linting) is correct or not
