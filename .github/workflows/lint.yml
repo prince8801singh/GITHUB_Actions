@@ -20,7 +20,7 @@ jobs:
        - name: Check the files for linting
          run: ruff check .
      # This step will fix using the Linter
-     #  - name: Fix using linter
-     #    run: ruff check --fix
+       - name: Fix using linter
+         run: ruff check --fix
         
     
